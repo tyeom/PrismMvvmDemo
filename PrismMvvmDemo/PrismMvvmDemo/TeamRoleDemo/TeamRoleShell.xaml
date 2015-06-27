@@ -1,0 +1,11 @@
+﻿<Window x:Class="TeamRoleDemo.TeamRoleShell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://www.codeplex.com/prism"
+        Title="TeamRoleShell" Height="500" Width="500">
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="RoleSelection" Height="100" Width="500" HorizontalAlignment="Center" VerticalAlignment="Top"></ContentControl>
+        <ContentControl prism:RegionManager.RegionName="CommonSelection" Height="100" Width="200"  HorizontalAlignment="Left" VerticalAlignment="Center"></ContentControl>
+        <ContentControl prism:RegionManager.RegionName="DetailSelection" Height="Auto" Width="Auto"  HorizontalAlignment="Center" VerticalAlignment="Center"></ContentControl>
+    </Grid>
+</Window>
